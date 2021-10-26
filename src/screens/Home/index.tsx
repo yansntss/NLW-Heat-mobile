@@ -1,5 +1,7 @@
 import React from "react";
 import { View } from 'react-native'
+import { MessageList } from "../../components/MessageList"
+
 
 import { Header } from "../../components/Header";
 
@@ -8,6 +10,7 @@ export function Home(){
   return(
    <View style={styles.container}>
      <Header />
+     <MessageList />
    </View>
   )
 }
