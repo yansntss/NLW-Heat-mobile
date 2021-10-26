@@ -9,14 +9,15 @@ export function Header() {
   return (
     <View style={styles.container}>
       <LogoSvg />
+      <View style={styles.logoutButton}>
+        <TouchableOpacity>
+          <Text style={styles.logoutText}>Sair</Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity>
-        <Text style={styles.logoutText}>Sair</Text>
-      </TouchableOpacity>
+        <UserPhoto imageUri="https://github.com/yansntss.png" />
 
-      <UserPhoto imageUri="https://github.com/yansntss.png" />
-
-      {/* qualquer coisa que tiver dentro de TouchableOpacity, torna-se clicavel*/}
+        {/* qualquer coisa que tiver dentro de TouchableOpacity, torna-se clicavel*/}
+      </View>
     </View>
   );
 }
