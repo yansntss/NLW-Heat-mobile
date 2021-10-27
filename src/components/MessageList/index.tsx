@@ -18,7 +18,8 @@ export function MessageList() {
     <ScrollView
       style={styles.container}
       contentContainerStyle={styles.content}
-      //toda vez que alguem tocar na lista, o teclado some
+
+      //toda vez que tocar na lista OU EM QUALQUER LUGAR, o teclado some
       keyboardShouldPersistTaps="never"
     >
       <Message data={message} />
