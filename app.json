@@ -3,6 +3,7 @@
     "name": "nlwHeatApp",
     "slug": "nlwHeatApp",
     "version": "1.0.0",
+    "schema": "nlwHeatApp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
